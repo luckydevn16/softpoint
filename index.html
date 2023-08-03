@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pushing the possibilities of the internet. Good for the last software. Make it A software night."/>
+    <meta name="keywords" content="Soft, Web-Development, Software"/>
+    <meta property="og:title" content="Soft Point Development"/>
+    <meta property="og:description" content="Pushing the possibilities of the internet. Good for the last software. Make it A software night."/>
+    <meta property="og:image" content="assets/img/hero-laptop.png"/>
+    <meta property="og:image:width" content="450"/>
+    <meta property="og:image:height" content="450"/>
+    <meta property="og:type" content="website"/>
+    <title>Soft Point Development</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/index.css?v=3">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header class="header" id="header">
+            <div class="container">
+                <div class="logo-wrapper" onclick="scrollToHero()">
+                    <img src="assets/img/Logo.png" alt="logo">
+                </div>
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li class="nav-list-item" onclick="scrollToAdvantages()">Feature</li>
+                        <li class="nav-list-item" onclick="scrollToDownload()">Download</li>
+                        <li class="nav-list-item" onclick="scrollToPricing()">Pricing</li>
+                    </ul>
+                </nav>
+                <div class="login-wrapper">
+                    <button class="btn alert-btn" onclick="openModal()">Sign Up</button>
+                </div>
+                <div class="mobile-menu-btn" onclick="mobileMenuOpen()">
+                    <img src="assets/img/menu.png" alt="menu">
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero-section" id="hero">
+                <div class="container">
+                    <div class="hero-content-part">
+                        <h1 class="main-heading">
+                            Develop Your Life With <strong>One Step.</strong>
+                        </h1>
+                        <p class="hero-descr">
+                            Pushing the possibilities of the internet. Good for the last software. Make it A software night.
+                        </p>
+                        <form class="hero-form" onsubmit="event.preventDefault(); emailSubscribtion()">
+                            <input type="text" class="hero-form-input" placeholder="Enter your email">
+                            <button class="btn alert-btn">Send</button>
+                            <div class="email-required">Enter your email please!</div>
+                        </form>
+                        <div class="apps-wrapper">
+                            <img src="assets/img/apps.png" alt="apps">
+                        </div>
+                    </div>
+                    <div class="hero-img-part">
+                        <img src="assets/img/hero-laptop.png" class="hero-laptop-img" alt="laptop">
+                        <img src="assets/img/circle-green.png" alt="green circle" class="pricing-cards-circle green">
+                        <img src="assets/img/circle-yellow.png" alt="yellow circle" class="pricing-cards-circle yellow">
+                    </div>
+                </div>
+            </section>
+            <section class="partners-section">
+                <div class="container">
+                    <img src="assets/img/Google_2015_logo 1.png" alt="google" class="partners-img">
+                    <img src="assets/img/1920px-Avast_Software_logo_2016 1.png" alt="google" class="partners-img">
+                    <img src="assets/img/pngegg 1.png" alt="google" class="partners-img">
+                    <img src="assets/img/paypal-784403_960_720-removebg-preview 1.png" alt="google" class="partners-img">
+                    <img src="assets/img/Home.png" alt="google" class="partners-img">
+                </div>
+            </section>
+            <section class="advantages-section" id="advantages">
+                <div class="container">
+                    <div class="advantages-cards-wrapper section-part">
+                        <div class="advantages-card">
+                            <img src="assets/img/settings.png" alt="settings" class="advantages-card-img settings">
+                            <h3 class="advantages-card-heading">Easy Settings</h3>
+                            <p class="advantages-card-text">A complete about-face in
+                                core economic amsterday bilamco progressive.</p>
+                        </div>
+                        <div class="advantages-card">
+                            <img src="assets/img/user1.png" alt="user" class="advantages-card-img user">
+                            <h3 class="advantages-card-heading">User Friendly</h3>
+                            <p class="advantages-card-text">A complete about-face in
+                                core economic amsterday bilamco progressive.</p>
+                        </div>
+                        <div class="advantages-card">
+                            <img src="assets/img/surface1.png" alt="security" class="advantages-card-img security">
+                            <h3 class="advantages-card-heading">Full secured</h3>
+                            <p class="advantages-card-text">A complete about-face in
+                                core economic amsterday bilamco progressive.</p>
+                        </div>
+                        <div class="advantages-card">
+                            <img src="assets/img/coding.png" alt="coding" class="advantages-card-img coding">
+                            <h3 class="advantages-card-heading">Clean Code</h3>
+                            <p class="advantages-card-text">A complete about-face in
+                                core economic amsterday bilamco progressive.</p>
+                        </div>
+                    </div>
+                    <div class="advantages-content section-part">
+                        <h2 class="section-heading">A complete software solution for you.</h2>
+                        <p class="section-text">The source of powerful qorld and making future sure.<br> Its a  straight forward software.</p>
+                        <p class="section-text">Where possibilities are made possible. We must have expand <strong>Possibilities of better tomorrow</strong>. The directly secure of your network deliveing  services.</p>
+                        <button class="btn know-more-btn" onclick="openModal()">Learn more</button>
+                        <button class="btn text-red" onclick="openModal()">Ask?</button>
+                    </div>
+                </div>
+            </section>
+            <section class="analysis-section">
+                <div class="container">
+                    <div class="section-part">
+                        <h2 class="section-heading">Discover & growth with analysis.</h2>
+                        <p class="section-text">
+                            Software with new dimensions. The better future 
+                            and information about the virtual world. 
+                        </p>
+                        <p class="section-text"><img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img"> Software with new dimensions the better.</p>
+                        <p class="section-text"><img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img"> Effortlessly manages all your information.</p>
+                        <p class="section-text"><img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img"> Simple Solutions for Complex Connections.</p>
+                        <p class="section-text"><img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img"> Complete business solutions for customers.</p>
+                    </div>
+                    <div class="section-part">
+                        <img src="assets/img/analysis-dashboard.png" class="analysis-dashboard-img" alt="dashboard">
+                    </div>
+                </div>
+            </section>
+            <section class="serving-section">
+                <div class="container">
+                    <div class="section-part serving-section-img">
+                        <img src="assets/img/serving-dashboard.png" class="serving-dashboard-img" alt="serving-dashboard">
+                    </div>
+                    <div class="section-part serving-section-content">
+                        <h2 class="section-heading">Serving information with  security.</h2>
+                        <p class="section-text">
+                            The source of powerful qorld and making future sure. Its a  straight forward software. Paired with dynamic image of the actual tool for you.
+                        </p>
+                        <p class="section-text">Where possibilities are made possible. We must have expand <strong>Possibilities of better tomorrow</strong>. The directly secure of your network deliveing  services.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="download-section" id="download">
+                <div class="container">
+                    <div class="section-part download-section-content">
+                        <h2 class="section-heading">Get our software</h2>
+                        <p class="section-text">The source of powerful qorld and making your future sure. It’s a  straight forward software for you.</p>
+                        <p class="section-text">The source of powerful qorld and making future sure. Its a  straight forward software. Paired with dynamic image of the actual tool and the performance.</p>
+                        <button class="btn alert-btn" onclick="openModal()">Download now</button>
+                    </div>
+                    <div class="section-part download-section-img">
+                        <img src="assets/img/laptop-open.png" class="laptop-open-img" alt="laptop-open">
+                    </div>
+                </div>
+            </section>
+            <section class="pricing-section" id="pricing">
+                <div class="container">
+                    <h2 class="section-heading">Best Pricing Plan</h2>
+                    <p class="section-text">Empowering the Internet Generation. Driving the Communication Revolution.<br> Technology at the speed of life. Empowered by Innovation.</p>
+                    <div class="pricing-checkbox-wrapper">
+                        <span class="pricing-checkbox-text monthly">Monthly</span>
+                        <input type="checkbox" id="pricing-checkbox" class="pricing-checkbox-input">
+                        <label for="pricing-checkbox" class="pricing-checkbox-label"><span class="label-span"></span></label>
+                        <span class="pricing-checkbox-text quarterly">Quarterly</span>
+                    </div>
+                    <div class="save-up">
+                        Save up to <span class="save-up-percent"></span>%
+                        <img src="assets/img/arrow-yellow.png" alt="arrow up">
+                    </div>
+                    <div class="pricing-range-wrapper">
+                        <input type="range" min="0" max="210" value="105" class="pricing-range-input">
+                        <div class="range-input-value"></div>
+                    </div>
+                    <div class="pricing-cards-wrapper">
+                        <img src="assets/img/circle-green.png" alt="green circle" class="pricing-cards-circle green">
+                        <img src="assets/img/circle-yellow.png" alt="yellow circle" class="pricing-cards-circle yellow">
+                        <div class="pricing-card">
+                            <h3 class="pricing-card-heading">BASIC PLAN</h3>
+                            <div class="pricing-card-price">$0</div>
+                            <ul class="pricing-card-features-list">
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        Limited Acess Library
+                                    </span>
+                                    <span class="feature-inclusion">Yes</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="linethrough opacity-5">100+ HTML UI Elements</span> 
+                                    </span>
+                                    <span class="feature-inclusion opacity-5">No</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="linethrough opacity-5">Hotline Support 24/7</span>
+                                    </span>
+                                    <span class="feature-inclusion opacity-5">No</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="linethrough opacity-5">API & extension support</span>
+                                    </span>
+                                    <span class="feature-inclusion opacity-5">No</span>
+                                </li>
+                            </ul>
+                            <button class="btn pricing-card-btn" onclick="openModal()">Buy Plan</button>
+                        </div>
+                        <div class="pricing-card">
+                            <h3 class="pricing-card-heading">PREMIUM PLAN</h3>
+                            <div class="pricing-card-price">$130</div>
+                            <ul class="pricing-card-features-list">
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        Limited Acess Library
+                                    </span>
+                                    <span class="feature-inclusion">Yes</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="">100+ HTML UI Elements</span> 
+                                    </span>
+                                    <span class="feature-inclusion">Yes</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="linethrough opacity-5">Hotline Support 24/7</span>
+                                    </span>
+                                    <span class="feature-inclusion opacity-5">No</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="linethrough opacity-5">API & extension support</span>
+                                    </span>
+                                    <span class="feature-inclusion opacity-5">No</span>
+                                </li>
+                            </ul>
+                            <button class="btn pricing-card-btn" onclick="openModal()">Buy Plan</button>
+                        </div>
+                        <div class="pricing-card">
+                            <h3 class="pricing-card-heading">ULTIMATE PLAN</h3>
+                            <div class="pricing-card-price">$210</div>
+                            <ul class="pricing-card-features-list">
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        Limited Acess Library
+                                    </span>
+                                    <span class="feature-inclusion">Yes</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="">100+ HTML UI Elements</span> 
+                                    </span>
+                                    <span class="feature-inclusion">Yes</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="">Hotline Support 24/7</span>
+                                    </span>
+                                    <span class="feature-inclusion">Yes</span>
+                                </li>
+                                <li class="pricing-card-features-list-item">
+                                    <span class="feature-name">
+                                        <img src="assets/img/checkmark.png" alt="checkmark" class="checkmark-img">
+                                        <span class="">API & extension support</span>
+                                    </span>
+                                    <span class="feature-inclusion">Yes</span>
+                                </li>
+                            </ul>
+                            <button class="btn pricing-card-btn" onclick="openModal()">Buy Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-logo-wrapper">
+                        <div class="logo-wrapper" onclick="scrollToTop()">
+                            <img src="assets/img/Logo.png" alt="logo">
+                        </div>
+                        <p class="section-text">Software with new look. Live the life that you expect.</p>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-content-part">
+                            <h3 class="footer-content-heading">Useful link</h3>
+                            <a href="javascript:void(0)" class="footer-link">Behance</a><br>
+                            <a href="javascript:void(0)" class="footer-link">Dribbble</a>
+                        </div>
+                        <div class="footer-content-part">
+                            <h3 class="footer-content-heading">Support</h3>
+                            <a href="javascript:void(0)" class="footer-link">Conditions</a><br>
+                            <a href="javascript:void(0)" class="footer-link">Privacy policy</a>
+                        </div>
+                        <div class="footer-content-part">
+                            <h3 class="footer-content-heading">Contact us</h3>
+                            <a href="javascript:void(0)" class="footer-link">(773) 217-8810</a><br>
+                            <a href="javascript:void(0)" class="footer-link">Downers Grove, IL 60515</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <div class="mobile-menu">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-list-item" onclick="scrollToAdvantages(), mobileMenuClose()">Feature</li>
+                <li class="nav-list-item" onclick="scrollToDownload(), mobileMenuClose()">Download</li>
+                <li class="nav-list-item" onclick="scrollToPricing(), mobileMenuClose()">Pricing</li>
+            </ul>
+        </nav>
+        <div class="login-wrapper">
+            <button class="btn alert-btn" onclick="openModal()">Sign Up</button>
+        </div>
+        <div class="mobile-menu-close-btn" onclick="mobileMenuClose()">
+            <img src="assets/img/close.png" alt="close">
+        </div>
+    </div>
+
+    <div class="modal-window" id="modalFormWindow">
+        <div class="modal-window-content">
+            <h3 class="modal-form-heading">Please enter your contacts</h3>
+            <form action="thankyou.html" class="modal-form" onsubmit="event.preventDefault(); formSubmission()">
+                <input type="text" class="modal-form-input name" placeholder="Your Firstname">
+                <input type="text" class="modal-form-input lastname" placeholder="Your Lastname">
+                <input type="text" class="modal-form-input email" placeholder="Your Email">
+                <div class="required-fields">
+                    Please fill in all the fields
+                </div>
+                <button class="btn alert-btn">Send</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal-window" id="modalEmailWindow">
+        <div class="modal-window-content">
+            <h3 class="modal-form-heading">Thank you for subscribtion!</h3>
+            <button class="btn alert-btn btn-center" onclick="closeEmailModal()">Close</button>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
